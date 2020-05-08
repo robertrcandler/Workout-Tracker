@@ -13,7 +13,7 @@ const WorkoutSchema = new Schema({
         type:{
             type: String,
             trim: true,
-            required: "Username is Required"
+            required: "Type is Required"
           },
           name:{
             type: String,
